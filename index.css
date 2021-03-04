@@ -1,0 +1,287 @@
+@charset "utf-8";
+/* CSS Document */
+
+h3 {
+	font-size:15px;
+	margin:0px;
+	color:white;
+	opacity: 0.6;
+	
+}
+
+h2 {
+	color:lightslategray;
+	text-align:center;
+	font-size:30px;
+	padding-top:60px;
+	margin:0px;
+}
+
+.album-list h2{
+	margin-bottom:60px;
+	margin-top:100px;
+}
+
+h4 {
+	text-align:center;
+	color:darkslategray;
+	font-size:20px;
+	margin:0px;
+	padding-bottom:40px;
+}
+
+
+.audio-player p {
+	color:white;
+	font-weight: bold ;
+	font-size:25px;
+	margin:0px;
+	opacity: 0.9;
+}
+
+.view-section{
+	background:linear-gradient(#fff,#ffdbfd);
+	padding-bottom:30px;
+}
+
+
+.container {
+	max-width: 1170px;
+	margin:0 auto;
+}
+
+
+
+.content {
+	background-size: cover;
+	margin-bottom:15px;
+	border-radius:40px;
+	transition:0.5s;
+	box-shadow:0px 0px 20px gray;
+	background-position: center center;
+	
+
+}
+
+
+.content:hover{
+	transform: scale(1.01,1.01);
+	transition:0.5s all ease-out;
+	opacity:0.9;
+}
+
+
+.No4 {
+	background-image: url("images/Hourly report.jpg");
+}
+
+.audio-player {
+	padding:30px 50px;
+}
+
+audio {
+	margin-top:10px;
+	opacity: 0.9;
+}
+
+.No5 {
+	background-image: url("images/Cataclysm.jpg");
+}
+
+video {
+	width:100%;
+	height:300px;
+	opacity:0.6;
+	object-fit: cover;
+	box-shadow:0px 0px 4px gray;
+}
+
+header {
+	background-color: black;
+	text-align:center;
+	box-shadow:0px 0px 10px gray;
+}
+
+header h1 {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	margin:auto;
+	z-index: 10;
+	color:white;
+	padding-top:110px;
+	
+}
+
+body {
+	margin:0px;
+}
+
+
+.No1 {
+	background-image: url("images/Ragnarok.jpg");
+}
+
+.No3 {
+	background-image: url("images/Afterglow.jpg");
+}
+
+.No2 {
+	background-image: url("images/Fate.jpg");
+}
+
+
+
+.favorite p {
+	display:inline-block;
+	font-size:10px;
+	background-color:#C62E58;
+	border-radius:5px;
+	padding:2px;
+	margin-bottom:10px;
+	color:#D3D6FF;
+	opacity:1;
+}
+
+
+
+.No6 {
+	background-image: url("images/DIgilog.jpg");
+}
+
+.No7 {
+	background-image: url("images/Great Attractor.jpg");
+}
+
+.No8 {
+	background-image: url("images/Procession.jpg");
+}
+
+.No9 {
+	background-image: url("images/Walhalla.jpg");
+}
+
+.No10 {
+	background-image: url("images/El Dorado.jpg");
+}
+
+.No11 {
+	background-image: url("images/Singularity.jpg");
+}
+
+.No12 {
+	background-image: url("images/Odyssey.jpg");
+}
+
+
+footer {
+	width:100%;
+	background-color:#191919;
+	height:300px;
+}
+
+.album-list  {
+	height:500px;
+	
+	
+}
+
+.album-content {
+	width:33.333333%;
+	float:left;
+	text-align:center;
+}
+
+.album-content img {
+	display:block;
+	width:60%;
+	margin:120px 0px;
+	margin:0 auto;
+	box-shadow:0px 0px 10px;
+	
+}
+
+.introduce-session img {
+	width:40%;
+	margin:30px 0px;
+	box-shadow:0 0 15px;
+}
+
+.album-content p {
+	font-weight: bold;
+	color:#2D2D2D;
+	font-size:20px;
+	margin:0 auto;
+	margin-top:15px;
+	
+}
+
+
+.introduce-session {
+	text-align:center;
+}
+
+.view-section h2 {
+	margin-top:100px;
+}
+	
+
+
+@media screen and (max-width:480px){
+	.album-content {
+	width:100%;
+	float:left;
+	text-align:center;
+	margin-bottom:50px;
+	}
+	
+	
+	.content{
+		width:80%;
+		margin:0 auto;
+		margin-bottom:40px;
+		border-radius: 20px;
+	}
+	
+	.audio-player{
+		padding:10px 0px 10px 20px;
+	}
+	
+	.audio-player p {
+		font-size:20px;
+	}
+	
+	.favorite p {
+		font-size:10px;
+	}
+	
+	.introduce-session img{
+		width:70%;
+	}
+	
+	h2 {
+		font-size:20px;
+	}
+	
+	h3 {
+		color:white;
+		opacity:0.6;
+	}
+	
+	h4 {
+		font-size:17px;
+		margin-top:15px;
+	}
+	
+	.album-list{
+		height:1100px
+	}
+	
+	.introduce-session p {
+		width:80%;
+		margin:0 auto;
+		font-size:14px;
+		padding:20px 0px;
+	}
+}
