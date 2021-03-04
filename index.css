@@ -15,6 +15,7 @@ h2 {
 	font-size:30px;
 	padding-top:60px;
 	margin:0px;
+	margin-bottom:10px;
 }
 
 .album-list h2{
@@ -25,9 +26,10 @@ h2 {
 h4 {
 	text-align:center;
 	color:darkslategray;
-	font-size:20px;
+	font-size:30px;
 	margin:0px;
 	padding-bottom:40px;
+	margin-top:60px;
 }
 
 
@@ -40,7 +42,7 @@ h4 {
 }
 
 .view-section{
-	background:linear-gradient(#fff,#ffdbfd);
+	background:linear-gradient(#fff,#cef5ff);
 	padding-bottom:30px;
 }
 
@@ -116,6 +118,7 @@ header h1 {
 
 body {
 	margin:0px;
+	font-family:"YuGothic";
 }
 
 
@@ -269,10 +272,7 @@ footer {
 		opacity:0.6;
 	}
 	
-	h4 {
-		font-size:17px;
-		margin-top:15px;
-	}
+
 	
 	.album-list{
 		height:1100px
@@ -284,4 +284,10 @@ footer {
 		font-size:14px;
 		padding:20px 0px;
 	}
+}
+.note {
+	text-align:center;
+	color:firebrick;
+	font-weight:bold;
+	padding-bottom:30px;
 }
